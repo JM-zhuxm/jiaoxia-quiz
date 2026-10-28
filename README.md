@@ -1,5 +1,10 @@
 # 科目一闯关 · 长盛驾校
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Phaser](https://img.shields.io/badge/Phaser-3-990000?logo=phaser&logoColor=white)](https://phaser.io/)
+[![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+
 移动端竖屏（9:16）H5 小游戏：真实科目一题库、每题 20 秒倒计时、90 分合格线，底部常驻「长盛驾校·从化学车」CTA。
 
 技术栈：Vite 5 + TypeScript 5 + Phaser 3（WebGL/Canvas 自适应渲染），无后端、无网络请求。主视觉与教学配图使用**生图模型产出的 5 张扁平卡通插画**（随包发布的本地 WebP），界面卡片、徽章与图标用 Phaser Graphics 代码绘制。
