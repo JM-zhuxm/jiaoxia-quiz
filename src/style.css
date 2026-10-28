@@ -1,0 +1,35 @@
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #eef3fb;
+  overflow: hidden;
+  overscroll-behavior: none;
+  -webkit-tap-highlight-color: transparent;
+  font-family: "PingFang SC", "HarmonyOS Sans SC", "Microsoft YaHei", "Noto Sans CJK SC",
+    "Source Han Sans SC", "Hiragino Sans GB", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+#app {
+  position: fixed;
+  inset: 0;
+  /* 居中交给 Phaser ScaleManager（CENTER_BOTH 用 margin 实现），
+     这里不要再叠一层 flex 居中，否则两者叠加会把画布推向右侧。 */
+  background: #eef3fb;
+}
+
+#app canvas {
+  display: block;
+  touch-action: none;
+  image-rendering: auto;
+}

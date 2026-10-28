@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "mainDocumentId": "doc-jiaoxia-design",
+  "boards": [
+    {
+      "id": "46d9eace-7b12-47ae-8835-9019fa0f69a5",
+      "name": "科目一闯关 · 设计与资产"
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-jiaoxia-design",
+      "title": "科目一闯关 · 主设计文档"
+    }
+  ]
+}

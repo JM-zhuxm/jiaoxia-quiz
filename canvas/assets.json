@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "assets": {
+    "shot-title": {
+      "name": "实现截图 · 标题页",
+      "path": "screenshots/mobile-1-title.png",
+      "description": "浏览器实测截图：标题页的品牌胶囊、主标题、生成的封面插画（学员在教练车里看路）、规则三卡、历史成绩与开始按钮。"
+    },
+    "shot-quiz": {
+      "name": "实现截图 · 答题页",
+      "path": "screenshots/mobile-2-quiz.png",
+      "description": "浏览器实测截图：答题页 HUD（关卡 / 计时环 / 分数）、题号、进度段、题干卡与四个选项卡。"
+    },
+    "shot-explain": {
+      "name": "实现截图 · 解析面板",
+      "path": "screenshots/mobile-3-explain.png",
+      "description": "浏览器实测截图：作答后升起的解析面板，含判定横幅、正确对勾、你的选择叉号、正确答案、解析与下一题按钮。"
+    },
+    "shot-result": {
+      "name": "实现截图 · 成绩页",
+      "path": "screenshots/mobile-4-result.png",
+      "description": "浏览器实测截图：成绩页的金牌徽章（内含生成的车辆插画）、分数、合格徽标、等级胶囊、统计四格、累计四格与错题回顾。"
+    },
+    "art-cover": {
+      "name": "生产美术 · 封面插画（学员看路）",
+      "path": "public/art/art-1-cover.webp",
+      "description": "生图模型产出的封面插画：学员在蓝色教练车内认真看路、系着安全带，浅色背景、左侧留白，裁剪为 868×530 WebP。运行时用于标题页主视觉。"
+    },
+    "art-seatbelt": {
+      "name": "生产美术 · 安全带正确佩戴示意",
+      "path": "public/art/art-2-seatbelt.webp",
+      "description": "生图模型产出的教学示意图：人物上半身在座椅上正确系好安全带，浅色背景，裁剪为 1690×1690 WebP。运行时用于安全带相关题目配图。"
+    },
+    "art-sign": {
+      "name": "生产美术 · 禁止通行标志",
+      "path": "public/art/art-3-sign.webp",
+      "description": "生图模型产出的交通标志图标：红色圆环加斜杠的禁令标志，浅色背景，裁剪为 968×968 WebP。运行时用于交通标志识别题配图。"
+    },
+    "art-crossing": {
+      "name": "生产美术 · 城市十字路口",
+      "path": "public/art/art-4-crossing.webp",
+      "description": "生图模型产出的路口场景：斑马线、信号灯、车辆与行人的城市路口，裁剪为 1248×832 WebP。运行时用于路口让行题配图。"
+    },
+    "art-car": {
+      "name": "生产美术 · 车辆图标（正面）",
+      "path": "public/art/art-5-car.webp",
+      "description": "生图模型产出的车辆图标：正面视角的可爱蓝色小车，浅色背景，裁剪为 878×878 WebP。运行时置于成绩页金牌徽章中央。"
+    }
+  }
+}

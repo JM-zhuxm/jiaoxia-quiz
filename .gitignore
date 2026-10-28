@@ -1,0 +1,29 @@
+# 依赖
+node_modules/
+
+# 构建产物
+dist/
+
+# 生图原稿（PNG，体积大；正式素材在 public/art/ 的 WebP）
+assets/generated/
+
+# 本地截图（验收用，不入库）
+screenshots/
+
+# OhMyGame canvas 工作区（工作台本地状态，非源码）
+canvas/boards/
+canvas/editor/
+canvas/jobs.json
+
+# OhMyGame 工作台元数据（资产清单/提示词记录，属工具本地状态）
+.data/
+
+# 系统与编辑器
+.DS_Store
+*.swp
+*.log
+npm-debug.log*
+
+# 环境变量（AGNES 凭据等）
+.env
+.env.local
