@@ -1,9 +1,9 @@
 {
   "name": "jiaoxia-quiz",
-  "private": true,
   "version": "1.0.0",
   "type": "module",
   "description": "科目一驾考闯关小游戏 — 长盛驾校",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
